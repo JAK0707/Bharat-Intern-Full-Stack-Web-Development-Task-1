@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(bodyParser.json());
-app.use(express.static('public'));
+app.use(express.static('main'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Database connection
